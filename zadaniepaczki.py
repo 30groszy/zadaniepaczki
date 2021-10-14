@@ -1,7 +1,7 @@
 minimalna_waga_elementu = 1
 maksymalna_waga_elementu = 10
 maksymalna_waga_paczki = 20
-numer_paczki = 1
+numer_paczki = 0
 wyslane_kilogramy = 0
 aktualna_waga = 0
 waga_najlzejszej_paczki = 20
@@ -28,7 +28,7 @@ for idx in range(maksymalna_liczba_elementow):
             if aktualna_waga < waga_najlzejszej_paczki:
                 waga_najlzejszej_paczki = aktualna_waga
                 numer_najlzejszej_paczki = numer_paczki
-        aktualna_waga = waga_elementu
+            aktualna_waga = waga_elementu
 
 if maksymalna_liczba_elementow == 0:
     print("Liczba paczek to 0")
